@@ -1,4 +1,4 @@
-body{
+main{
 	background-image: url("bg01.jpg");
 	}
 
@@ -16,7 +16,7 @@ button{
 	height: 50px;
 }
 
-main{
+.main-img{
 	height: 500px;
 	background-image: url(../img/main_img04.png);
 	background-size: 100%;
