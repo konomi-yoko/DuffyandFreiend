@@ -1,3 +1,7 @@
+body{
+	width: 1280px;
+}
+
 main{
 	background-image: url("../img/bg.jpg");
 	}
@@ -16,16 +20,13 @@ button{
 	height: 50px;
 }
 
-.main-img{
-	/*height: 500px;*/
-	/*background-image: url(../img/main_img04.png);*/
-	/*background-size: 100%;*/
+.main-img img{
+	width: 100%;
 }
 
 nav{
-	height: 800px;
+	height: 950px;
 	background-image: url(../img/top_img01.jpg);
-	min-height: 100vh;
 	background-size: cover;
 }
 
