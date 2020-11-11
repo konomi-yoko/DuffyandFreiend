@@ -56,7 +56,7 @@ iframe{
 }
 
 
-main {
+.character-main {
 	width: 1300px;
 	height: 100%;
 	background-image: url(../img/bg.jpg);
