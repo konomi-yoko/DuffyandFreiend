@@ -119,7 +119,7 @@ iframe{
 .chara-prof .col-2 {
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;
+	/*justify-content: center;*/
 	align-items: center;
 }
 
