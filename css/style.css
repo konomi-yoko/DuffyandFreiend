@@ -1,5 +1,5 @@
 main{
-	background-image: url("bg01.jpg");
+	background-image: url("../img/bg.jpg");
 	}
 
 header{
@@ -63,7 +63,6 @@ iframe{
 .character-main {
 	width: 1300px;
 	height: 100%;
-	background-image: url(../img/bg.jpg);
 	margin: 0 auto;
 }
 
@@ -120,7 +119,7 @@ iframe{
 .chara-prof .col-2 {
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;*/
+	/*justify-content: center;
 	align-items: center;
 }
 
