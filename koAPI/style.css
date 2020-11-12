@@ -1,0 +1,25 @@
+
+
+main {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 30px;
+	border: 1px #17a2b8 solid;
+	padding: 50px 50px 0;
+	margin-top: 50px;
+}
+
+hr {
+	margin: 50px 0;
+}
+
+li {
+	font-size: 13px;
+	color: gray;
+	margin-bottom: 50px;
+}
+
+p {
+	margin-top: 10px;
+}
