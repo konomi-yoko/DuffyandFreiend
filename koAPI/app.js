@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
       if (xhr.readyState === 4) {
         if(xhr.status === 200) {
           result.textContent = '';
-          // console.log(xhr.responseText);
           let res = JSON.parse(xhr.responseText);
           console/console.log(res);
           console.log(res.items);
@@ -38,13 +37,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function renderResult(item) {
-    
-    //取得した内容を変数に格納
     let title = item.snippet.title;
     let thumbnail = item.snippet.thumbnails.medium;
     let videoId = item.id.videoId;
 
-    //要素を組み立てる
     let img = document.createElement('img');
     let anchor = document.createElement('a');
     let text = document.createElement('p');
@@ -59,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     text.textContent = title;
 
-    //画面に表示
     anchor.appendChild(img);
     li.appendChild(anchor);
     li.appendChild(text);
