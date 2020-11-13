@@ -2,30 +2,6 @@ body{
 	background-color: #fdf3e6;
 }
 
-main {
-	background-image: url("../img/bg.jpg");
-	width: 1280px;
-	margin: 0 auto;
-	}
-
-.main-pr-img {
-	width: 100%;
-	background-image: url("../img/bg.jpg");
-	background-position-x: 50%;
-	background-position-y: 0px;
-	/*background-size: initial;*/
-	background-repeat-x: no-repeat;
-	/*background-repeat-y: repeat;*/
-/*	background-attachment: initial;
-	background-origin: initial;
-	background-clip: initial;
-	background-color: initial;*/
-}
-
-.main-pr-img img {
-	width: 100%;
-}
-
 header{
 	height: 100px;
 	background-color: #f3d8c0;
@@ -35,15 +11,40 @@ header .container{
 	padding-top: 20px;
 }
 
-button{
+header button{
 	width: 155px;
 	height: 50px;
+}
+
+main {
+	background-image: url("../img/bg.jpg");
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 134px;
+	}
+
+.main-pr-img {
+	width: 100%;
+	background-image: url("../img/bg.jpg");
+	background-position-x: 50%;
+	background-repeat-x: no-repeat;
+	background-repeat-y: repeat;
+}
+
+.main-pr-img img {
+	width: 100%;
+}
+
+.main-pr-img ul {
+	margin-bottom: 0;
+
 }
 
 nav{
 	height: 950px;
 	background-image: url(../img/top_img01.jpg);
 	background-size: cover;
+	margin-bottom: 134px;
 }
 
 .movie {
