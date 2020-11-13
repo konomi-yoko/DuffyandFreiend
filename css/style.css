@@ -1,10 +1,30 @@
 body{
-	width: 1280px;
+	background-color: #fdf3e6;
 }
 
-main{
+main {
 	background-image: url("../img/bg.jpg");
+	width: 1280px;
+	margin: 0 auto;
 	}
+
+.main-pr-img {
+	width: 100%;
+	background-image: url("../img/bg.jpg");
+	background-position-x: 50%;
+	background-position-y: 0px;
+	/*background-size: initial;*/
+	background-repeat-x: no-repeat;
+	/*background-repeat-y: repeat;*/
+/*	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;*/
+}
+
+.main-pr-img img {
+	width: 100%;
+}
 
 header{
 	height: 100px;
@@ -20,14 +40,18 @@ button{
 	height: 50px;
 }
 
-.main-img img{
-	width: 100%;
-}
-
 nav{
 	height: 950px;
 	background-image: url(../img/top_img01.jpg);
 	background-size: cover;
+}
+
+.movie {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 .text{
@@ -134,4 +158,34 @@ iframe{
 
 .h2-text-gell {
 	color: #6b9e7b;
+}
+
+
+
+
+
+
+/*--------------小型PC用------------------*/
+@media screen and (max-width: 1280px) {
+
+	body {
+		margin: 0 auto;
+		width: 1200px;
+	}
+}
+
+
+/*--------------タブレット用--------------*/
+@media screen and (max-width: 960px) {
+		body {
+		min-width: 768px;
+	}
+}
+
+
+/*--------------スマホ用--------------*/
+@media screen and (max-width: 480px) {
+	body {
+		min-width: 375px;
+	}
 }
