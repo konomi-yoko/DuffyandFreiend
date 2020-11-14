@@ -1,3 +1,158 @@
 .content-footer {
 	background-color: #eec49e;
+	width: 100%;
+	padding: 118px 50px 65px;
+	position: relative;
+}
+
+.top-scroll {
+	width: 144px;
+	height: 176px;
+	background: url(../img/btn_pagetop.png) no-repeat;
+	background-size: 144px 176px;
+	cursor: pointer;
+	position: absolute;
+	top: -95px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.kamome {
+	position: absolute;
+	top: 10px;
+}
+
+.kamome img {
+	width: 107px;
+	height: 72px;
+}
+
+.animation {
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 1.5s;
+}
+
+.kamome{
+    animation-name: anim_v;
+}
+@keyframes anim_v {
+	0% {
+	transform: translate(0, 0px);
+	}
+	100% {
+	transform: translate(0, -15px);
+	}
+}
+
+.pagetop-button {
+	font-size: 23px;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: .15em;
+	position: absolute;
+	top: 85px;
+	margin: 15px 0 0 48px;
+}
+
+.kigou {
+ transform: rotate( -90deg );
+	position: absolute;
+	top: 75px;
+	left: 0;
+	right: 0;
+}
+
+.kigou img {
+	width: 12px;
+	height: 18px;
+}
+
+.sns-container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.sns-icon {
+	display: flex;
+	justify-content: center;
+}
+
+.sns-icon li {
+	margin: 0 6px;
+}
+
+.fa-twitter-square {
+	color: #1DA1F2;
+	background-color: #fff;
+	line-height: 84%;
+	border-radius: 6px;
+}
+
+.fa-facebook-square {
+	color: #3B5998;
+	background-color: #fff;
+	line-height: 84%;
+	border-radius: 6px;
+}
+
+.sns-title-text {
+	margin: 30px 0;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sns-text {
+	margin-left: 13px;
+	padding-right: 13px;
+	line-height: 1.4em;
+	letter-spacing: 0.03em;
+	box-sizing: border-box;
+}
+
+.sns-text li {
+	font-size: 13px;
+	margin: 0 0 2.6px;
+}
+
+.sns-text li:before {
+	content: '・';
+	margin-left: -13px;
+}
+
+.footer-contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 87px;
+	background-color: #fff;
+	padding: 15px 0;
+	color: #333;
+	font-size: 13px;
+	box-sizing: border-box;
+}
+
+.footer-menu {
+	width: 1280px;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer-menu li {
+	padding: 0 15px;
+	border-right: 1px solid #ccc;;
+}
+
+.footer-menu li:first-child {
+	border-left: 1px solid #ccc;;
+}
+
+.copy {
+	text-align: center;
+	margin-bottom: 0;
 }

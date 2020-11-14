@@ -1,5 +1,10 @@
 body{
 	background-color: #fdf3e6;
+	color: #6e6865;
+}
+
+ul {
+	margin: 0px;
 }
 
 header{
@@ -37,7 +42,6 @@ main {
 
 .main-pr-img ul {
 	margin-bottom: 0;
-
 }
 
 nav{
@@ -65,12 +69,12 @@ nav{
 	padding-bottom: 20px; 
 	font-weight: bolder;
 	font-size: 22px;
-	color: #747375;
+	color: #6e6865;
 }
 
 .text-sub{
 	font-size: 14px;
-	color: #747375;
+	color: #6e6865;
 }
 
 .section-text{
