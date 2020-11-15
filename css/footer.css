@@ -96,7 +96,13 @@
 
 /*--------------スマホ用--------------*/
 @media screen and (max-width: 480px) {
-	body {
-		min-width: 375px;
+		body,main,.section-title,.character-main,.footer-menu {
+		width: 480px;
 	}
+
+	.header-menu {
+		display: none;
+	}
+
+
 }
