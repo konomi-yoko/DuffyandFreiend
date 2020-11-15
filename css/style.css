@@ -7,6 +7,11 @@ ul {
 	margin: 0px;
 }
 
+.container {
+	padding: 0;
+	margin: 0;
+}
+
 header{
 	height: 100px;
 	background-color: #f3d8c0;
