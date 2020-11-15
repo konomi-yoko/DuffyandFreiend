@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 
     <title>Duffy and Friend</title>
   </head>
+
   <body>
       <header>
-        <div class="container"> 
+        <div class="container header-menu"> 
             <div class="row">
                 <div class="col-2">
                   <button type="button" class="btn btn-light">ギャラリー</button>
@@ -92,7 +94,9 @@
 <!-- movie -->
 
       <section class="movie">
-        <p class="section-text">Movie</p>
+        <h2 class="section-title">
+          <p class="section-text container"><img src="img/title_movie.png"></p>
+        </h2>
           <div class="youtube">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ4V0S4F8X8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -101,7 +105,12 @@
 <!-- movie ここまで -->
 
 <!-- Photo -->
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+<!-- Photo -->
+        <h2 class="section-title">
+          <p class="section-text container"><img src="img/title_photo.png"></p>
+        </h2>
+      <div id="photos" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/str_img97.jpg">
@@ -122,76 +131,80 @@
             <img src="img/str_img102.jpg">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#photos" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#photos" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
         </a>
     </div>
-
-
 <!-- photosここまで -->
 
 <!-- character -->
 
     <section class="character-main">
-
+        <h2 class="section-title">
+          <p class="section-text container"><img src="img/title_chara.png"></p>
+        </h2>
       <h1 class="h1-chara">ダッフィー&フレンズ</h1>
       <div class="container character">
         <div class="row chara-prof">
-          <div class="col-3"></div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img01.png"></div>
             <h2 class="h2-text-duffy">ダッフィー</h2>
             <p>ミニーがミッキーのために<br>
             つくったテディベア。</p>
             <button type="button" class="btn btn-outline-secondary">MORE</button>
           </div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img02.png"></div>
             <h2 class="h2-text-shell">シェリーメイ</h2>
             <p>ミニーがつくった<br>
             テディベアの女の子。</p>
             <button type="button" class="btn btn-outline-danger">MORE</button>
           </div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img03.png"></div>
             <h2 class="h2-text-gell">ジェラトーニ</h2>
             <p>絵を描くことが大好きな<br>ネコの男の子。</p>
             <button type="button" class="btn btn-outline-info">MORE</button>
           </div>
-          <div class="col-3"></div>
         </div>
 
         <div class="row chara-prof">
-          <div class="col-3"></div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img04.png"></div>
             <h2 class="h2-text-duffy">ステラ・ルー</h2>
             <p>ダンサーになることを夢<br>見ているうさぎの女の子。</p>
             <button type="button" class="btn btn-outline-primary">MORE</button>
           </div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img05.png"></div>
             <h2 class="h2-text-shell">クッキー・アン</h2>
             <p>好奇心いっぱいの<br>いぬの女の子。</p>
             <button type="button" class="btn btn-outline-warning">MORE</button>
           </div>
-          <div class="col-2">
+          <div class="col-4">
             <div><img src="img/chara_img06.png"></div>
             <h2 class="h2-text-gell">オル・メル</h2>
             <p>音楽が大好き<br>なカメの男の子</p>
             <button type="button" class="btn btn-outline-success">MORE</button>
           </div>
-          <div class="col-3"></div>
         </div>
 
       </div>
     </section>
     <!-- character ここまで -->
+
+    <!-- Google map -->
+    
+      <div class="google">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.041200427959!2d139.88288921744387!3d35.6267108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60187d03114737b3%3A0x41471d704ab72d25!2sTokyo%20DisneySea!5e0!3m2!1sfr!2sjp!4v1605434583970!5m2!1sfr!2sjp" width="700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+    <!-- Google map ここまで -->
 
     </main>
     
