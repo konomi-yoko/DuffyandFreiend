@@ -118,7 +118,7 @@ nav{
 /*character*/
 
 .character-main {
-	width: 1300px;
+	width: 1280px;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -365,8 +365,8 @@ nav{
 @media screen and (max-width: 1280px) {
 
 	body {
+		width: 1280px;
 		margin: 0 auto;
-		width: 1200px;
 	}
 }
 
