@@ -8,3 +8,7 @@
 	height: 500px;
 }
 
+.google{
+	display: flex;
+	justify-content: center;
+}

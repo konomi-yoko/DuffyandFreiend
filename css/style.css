@@ -102,10 +102,6 @@ nav{
 }
 /*h2タイトルここまで*/
 
-/*iframe{
-	margin: 0 auto;
-}*/
-
 /*photos*/
 
 #photos{
@@ -118,6 +114,8 @@ nav{
 	height: 500px;
 }
 
+
+/*character*/
 
 .character-main {
 	width: 1300px;
@@ -192,6 +190,13 @@ nav{
 
 .h2-text-gell {
 	color: #6b9e7b;
+}
+
+/*google map*/
+
+.google{
+	display: flex;
+	justify-content: center;
 }
 
 .content-footer {
