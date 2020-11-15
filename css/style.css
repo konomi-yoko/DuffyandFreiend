@@ -7,6 +7,8 @@ ul {
 	margin: 0px;
 }
 
+/*header*/
+
 header{
 	height: 100px;
 	background-color: #f3d8c0;
@@ -20,6 +22,8 @@ header button{
 	width: 155px;
 	height: 50px;
 }
+
+/*top photo*/
 
 main {
 	background-image: url("../img/bg.jpg");
@@ -44,6 +48,8 @@ main {
 	margin-bottom: 0;
 }
 
+/*文字のところ*/
+
 nav{
 	height: 950px;
 	background-image: url(../img/top_img01.jpg);
@@ -52,11 +58,14 @@ nav{
 	margin-bottom: 85px;
 }
 
+/*movie*/
+
 .movie {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
 	width: 100%;
 }
 
@@ -76,6 +85,29 @@ nav{
 .text-sub{
 	font-size: 14px;
 	color: #6e6865;
+}
+
+/*photos*/
+
+#photos{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#photos img{
+	width: 700px;
+	height: 500px;
+}
+
+.btn-light{
+	padding-right: 60px;
+	padding-left: 60px;
+	display: block;
+	margin: 0 auto;
+}
+
+.photos-container{
+	margin-bottom: 50px;
 }
 
 /*h2タイトル*/
@@ -102,19 +134,6 @@ nav{
 	height: 100%;
 }
 /*h2タイトルここまで*/
-
-/*photos*/
-
-#photos{
-	width: 700px;
-	margin: 0 auto;
-}
-
-#photos img{
-	width: 700px;
-	height: 500px;
-}
-
 
 	/*character*/
 
