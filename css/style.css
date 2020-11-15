@@ -106,6 +106,18 @@ iframe{
 	margin: 0 auto;
 }
 
+/*photos*/
+
+#photos{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#photos img{
+	width: 700px;
+	height: 500px;
+}
+
 
 .character-main {
 	width: 1300px;
