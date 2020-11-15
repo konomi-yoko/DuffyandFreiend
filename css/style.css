@@ -48,6 +48,7 @@ nav{
 	height: 950px;
 	background-image: url(../img/top_img01.jpg);
 	background-size: cover;
+	background-position: center;
 	margin-bottom: 85px;
 }
 
