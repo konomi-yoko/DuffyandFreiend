@@ -115,7 +115,7 @@ nav{
 }
 
 
-/*character*/
+	/*character*/
 
 .character-main {
 	width: 1280px;
@@ -134,6 +134,7 @@ nav{
 }
 
 .character {
+	width: 720px;
 	margin-top: 40px;
 }
 
@@ -142,8 +143,8 @@ nav{
 }
 
 .chara-prof img {
-	width: 180px;
-	height: 180px;
+	width: 220px;
+	height: 220px;
 }
 
 .chara-prof h2 {
@@ -165,12 +166,10 @@ nav{
 }
 
 .chara-prof button {
-	padding-right: 50px;
-	padding-left: 50px;
-}
-
-.chara-prof span {
-	font-weight: bold;
+	padding-right: 60px;
+	padding-left: 60px;
+	display: block;
+	margin: 0 auto;
 }
 
 .chara-prof .col-2 {
@@ -191,6 +190,7 @@ nav{
 .h2-text-gell {
 	color: #6b9e7b;
 }
+
 
 /*google map*/
 
