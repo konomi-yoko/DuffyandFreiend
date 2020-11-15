@@ -34,17 +34,63 @@
 
 }
 
-/*--------------タブレット用--------------*/
-@media screen and (max-width: 992px) {
-	body,main,.section-title,.character-main,.footer-menu {
+/*--------------タブレット用横--------------*/
+	@media screen and (max-width: 992px) {
+		body,main,.section-title,.character-main,.footer-menu {
 		width: 992px;
 }
 
-/*--------------タブレット用--------------*/
-@media screen and (max-width: 960px) {
-		body {
-		min-width: 768px;
+/*--------------タブレット用縦--------------*/
+@media screen and (max-width: 768px) {
+		body,main,.section-title,.character-main,.footer-menu {
+		width: 768px;
 	}
+
+		header {
+			height: 80px;
+		}
+
+		.header-menu button {
+		width: 150px;
+		height: 40px;
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	main {
+		padding-top: 100px;
+	}
+
+	nav {
+		height: 700px;
+		margin-bottom: 0;
+	}
+
+		nav p {
+		margin-bottom: 0;
+	}
+
+	.text-main {
+		padding-bottom: 5px;
+		margin-bottom: 16px;
+	}
+
+	.text-sub {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+
+	.youtube {
+		padding-bottom: 50px;
+	}
+
+	.photos-container {
+		padding-bottom: 50px;
+	}
+
+
+
+
 }
 
 

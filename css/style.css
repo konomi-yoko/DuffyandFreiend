@@ -121,7 +121,7 @@ nav{
 .character-main {
 	width: 1280px;
 	height: 100%;
-	margin: 0 auto;
+	margin: 0 auto 134px;
 }
 
 .h1-chara {
@@ -195,10 +195,18 @@ nav{
 
 /*google map*/
 
+.map {
+	padding-bottom: 134px
+}
+
 .google{
 	display: flex;
 	justify-content: center;
 }
+
+
+
+/*footer*/
 
 .content-footer {
 	background-color: #eec49e;
