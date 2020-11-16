@@ -99,7 +99,7 @@ nav{
 	height: 500px;
 }
 
-.btn-light{
+.btn-more{
 	padding-right: 60px;
 	padding-left: 60px;
 	display: block;
@@ -396,6 +396,15 @@ nav{
 		width: 1280px;
 		margin: 0 auto;
 	}
+
+	.fa-twitter-square {
+	line-height: 80%;
+}
+
+.fa-facebook-square {
+	line-height: 80%;
+	border-radius: 6px;
+}
 }
 
 @media screen and (max-width: 1200px) {
